@@ -1,6 +1,6 @@
-var expect = require('expect');
+const expect = require('expect');
 
-var {generateMessage, generateLocation} = require('./message');
+const {generateMessage, generateLocation} = require('./message');
 
 
 describe('generateMessage', () => {
